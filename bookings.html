@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings-VentureBook</title>
+    <link rel="stylesheet" href="bookings.css">
+</head>
+<body>
+    <script src="bookings.js"></script>
+
+    <div class="content">
+        <h1>Your <span style="color:#FF8C00">Bookings</span></h1>
+    </div>
+    <!-- <img src="img1.jpg" alt=""> -->
+
+    <div class="container">
+        <h1>Booking Page</h1>
+        <form id="booking-form">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" required>
+
+            <label for="destination">Select Destination:</label>
+            <select id="destination">
+                <option value="hotel1">Hotel 1</option>
+                <option value="hotel2">Hotel 2</option>
+                <option value="hotel3">Hotel 3</option>
+            </select>
+
+            <label for="day">Day:</label>
+            <input type="date" id="day" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    <div id="confirmation-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <p id="confirmation-message">Your booking is confirmed!</p>
+        </div>
+    </div>
+
+
+        
+</body>
+</html>

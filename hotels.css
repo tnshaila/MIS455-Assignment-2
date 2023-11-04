@@ -1,0 +1,200 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #000324;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logotxt {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-right: 660px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFA500; 
+    /* border-bottom:solid 2px #FFA500; */
+}
+.logo img {
+    width: 40px;
+}
+
+/* Existing styles from the previous example */
+
+.search-box {
+    display: flex;
+}
+
+#searchInput {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button a {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer; 
+}
+
+#searchButton:hover {
+    background-color: #FF8C00; 
+}
+
+h1{
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #000324;
+    font-weight: bolder;
+}
+.card {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 50px));
+    gap: 200px;
+    /* max-width: 100px; */
+    margin: 10px auto;
+    padding: 50px;
+}
+
+
+.destination-card {
+    width: 500px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid rgba(74, 60, 60, 0.25);
+    background-color: #f9f8f6;
+    backdrop-filter: blur(15px); 
+    
+}
+
+.destination-card img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.destination-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.destination-card p {
+    font-size: 14px;
+}
+
+.destination-card:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+    border: #000324 solid 1px;
+
+}
+.ratings {
+    margin-top: 10px;
+}
+
+.star {
+    color: #FFD700;
+    font-size: 20px;
+}
+
+/* Your existing CSS styles */
+
+/* Style the dropdown container */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+/* background-color: #333; */
+color: #fff;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+color: #333;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change the color of the dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content {
+display: block;
+}
